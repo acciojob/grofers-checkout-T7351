@@ -6,6 +6,7 @@ const tfoot =table.createTFoot();
 const row = tfoot.insertRow();
 const cell1 = row.insertCell();
 const cell2 = row.insertCell();
+cell2.setAttribute("id", "ans");
 
 const getSum = () => {
 	const prices = document.querySelectorAll('.prices');
